@@ -50,7 +50,7 @@ public class CommentServiceTest {
     @Test
     public void testSaveComment() {
         Comment comment = new Comment();
-        comment.setArticleid("100000");
+        comment.setArticleid("1000001");
         comment.setContent("测试添加的数据");
         comment.setCreatedatetime(LocalDateTime.now());
         comment.setUserid("1003");
